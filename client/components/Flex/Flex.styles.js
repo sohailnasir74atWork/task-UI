@@ -54,9 +54,9 @@ export const FlexItem = styled.div`
     if (props.three) return '33.33%';
     if (props.four) return '25%';
     if (props.five) return '20%';
-    if (props.six) return '16%';
+    if (props.six) return '16.655%';
     if (props.seven) return '14%';
     return '50%';
   }};
-  padding: ${(props) => (props.noPadding ? 0 : '15px')};
+  padding: ${(props) => (props.noPadding ? 0 : '0px')};
 `;
